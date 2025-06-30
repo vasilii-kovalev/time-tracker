@@ -1,1 +1,1 @@
-# time-tracker
+# Time tracker
