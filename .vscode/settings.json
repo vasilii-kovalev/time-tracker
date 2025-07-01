@@ -1,0 +1,17 @@
+{
+	"[javascript][typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma",
+		"editor.formatOnSave": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.fixAll.markdownlint": "explicit"
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"workbench.editorAssociations": {
+		"*.db": "sqlite-viewer.view"
+	}
+}

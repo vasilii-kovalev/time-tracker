@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"clinyong.vscode-css-modules",
+		"DavidAnson.vscode-markdownlint",
+		"dbaeumer.vscode-eslint",
+		"EditorConfig.EditorConfig",
+		"Prisma.prisma",
+		"qwtel.sqlite-viewer",
+		"stylelint.vscode-stylelint"
+	]
+}
