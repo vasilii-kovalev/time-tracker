@@ -1,0 +1,40 @@
+{
+	"name": "server",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"main": "./index.ts",
+	"scripts": {
+		"prisma:generate": "prisma generate",
+		"prisma:update": "prisma db push",
+		"prisma:seed": "prisma db seed",
+		"prisma:studio": "prisma studio",
+		"start": "bun --hot ./index.ts",
+		"check:types": "tsc --noEmit",
+		"check:eslint": "eslint . --quiet"
+	},
+	"dependencies": {
+		"@fastify/cookie": "11.0.2",
+		"@fastify/jwt": "9.1.0",
+		"@fastify/swagger": "9.5.1",
+		"@fastify/swagger-ui": "5.2.3",
+		"@prisma/client": "6.9.0",
+		"fastify": "5.3.3",
+		"fastify-plugin": "5.0.1"
+	},
+	"devDependencies": {
+		"@eslint/js": "9.28.0",
+		"@stylistic/eslint-plugin": "4.4.1",
+		"@types/bun": "1.2.15",
+		"eslint": "9.28.0",
+		"eslint-import-resolver-typescript": "4.4.3",
+		"eslint-plugin-import-export-newline": "1.0.0",
+		"eslint-plugin-import-x": "4.15.1",
+		"eslint-plugin-simple-import-sort": "12.1.1",
+		"prisma": "6.9.0",
+		"typescript-eslint": "8.33.1"
+	},
+	"prisma": {
+		"seed": "bun ./src/db/seed.ts"
+	}
+}

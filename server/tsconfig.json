@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"allowImportingTsExtensions": false,
+		// For JavaScript configs.
+		"allowJs": true,
+		"isolatedModules": true,
+		"lib": [
+			"ESNext"
+		],
+		"module": "ESNext",
+		"moduleDetection": "force",
+		"moduleResolution": "Node",
+		"noEmit": true,
+		"noUncheckedIndexedAccess": true,
+		"paths": {
+			"@/*": [
+				"./src/*"
+			]
+		},
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ESNext"
+	},
+	"include": [
+		"src",
+		"index.ts",
+		"eslint.config.js"
+	]
+}
